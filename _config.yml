@@ -13,7 +13,7 @@ plugins:
   - jekyll-seo-tag
 
 # 主题设置（先使用默认主题）
-theme: minima
+theme: hacker
 
 # 作者信息
 author:
