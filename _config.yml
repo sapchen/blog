@@ -35,7 +35,15 @@ timezone: Asia/Shanghai  # 设置时区
 
 # 排除文件
 exclude:
+  - vendor
+  - .bundle
+  - .github
   - Gemfile
   - Gemfile.lock
   - README.md
-  - .github
+  - "*.gem"
+  - "*.gemspec"
+  - "*.template"
+  - "*.erb"
+  - site_template
+  - lib
