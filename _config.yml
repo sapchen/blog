@@ -10,9 +10,10 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # 主题设置（先使用默认主题）
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/hacker@v0.2.0
 
 # 作者信息
 author:
