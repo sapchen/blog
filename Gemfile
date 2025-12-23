@@ -3,10 +3,6 @@ source "https://rubygems.org"
 # 这是 GitHub Pages 的官方支持
 gem "github-pages", group: :jekyll_plugins
 
-# 指定兼容版本
-gem "jekyll"  # GitHub Pages支持的版本
-gem "jekyll-theme-hacker" 
-
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 
