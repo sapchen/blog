@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # 这是 GitHub Pages 的官方支持
-gem "github-pages", "~> 232", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 # 指定兼容版本
 gem "jekyll", "~> 4.3.3"  # GitHub Pages支持的版本
