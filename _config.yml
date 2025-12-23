@@ -7,21 +7,21 @@ url: "https://sapchen.github.io/blog"
 # 构建设置
 markdown: kramdown
 highlighter: rouge
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-remote-theme
 
 # 主题设置（先使用默认主题）
-remote_theme: pages-themes/hacker@v0.2.0
+theme: jekyll-theme-hacker
 
 # 作者信息
 author:
-  name: "_061837@bupt"
+  name: "宸良手纪"
   email: "chenliang@bupt.cn"
 
 # 社交链接
 github_username: _061837@bupt
+
+# Hacker主题特定的颜色配置（可选）
+hacker:
+  skin: classic  # classic 或 dark
 
 # 其他设置
 permalink: /:year/:month/:day/:title/
