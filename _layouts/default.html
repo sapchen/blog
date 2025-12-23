@@ -11,10 +11,12 @@
     <header>
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
+        <!-- 在default.html中完善导航 -->
         <nav>
-            <a href="{{ '/' | relative_url }}">首页</a>
-            <a href="{{ '/archive' | relative_url }}">归档</a>
-            <a href="{{ '/about' | relative_url }}">关于</a>
+            <a href="{{ '/' | relative_url }}">🏠 首页</a>
+            <a href="{{ '/archive' | relative_url }}">📚 归档</a>
+            <a href="{{ '/categories' | relative_url }}">🏷️ 分类</a>
+            <a href="{{ '/about' | relative_url }}">👤 关于</a>
         </nav>
     </header>
     
