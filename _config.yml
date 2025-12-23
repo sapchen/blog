@@ -11,10 +11,9 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 # 主题设置（先使用默认主题）
-theme: hacker
+theme: minima
 
 # 作者信息
 author:
@@ -23,11 +22,6 @@ author:
 
 # 社交链接
 github_username: sapchen
-
-hacker:
-  skin: dark  # 推荐用dark，更有黑客风格
-  title: "宸良手纪"  # 可选：覆盖主题标题
-  description: "讲述项目背后的故事"  # 可选：覆盖主题描述
 
 # 其他设置
 permalink: /:year/:month/:day/:title/
