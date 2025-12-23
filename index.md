@@ -13,4 +13,4 @@ title: 首页
 - [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y年%m月%d日" }}
 {% endfor %}
 
-[查看所有文章](/archive)
+[查看所有文章](/_posts)
