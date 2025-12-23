@@ -14,7 +14,7 @@ plugins:
   - jekyll-remote-theme
 
 # 主题设置（先使用默认主题）
-theme: jekyll-theme-hacker
+theme: hacker
 
 # 作者信息
 author:
