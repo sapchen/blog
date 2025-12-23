@@ -4,6 +4,17 @@ description: "讲述项目背后的故事 | share the stories behind the repos"
 baseurl: "/blog" 
 url: "https://sapchen.github.io/blog" 
 
+
+# 🔥 添加GitHub仓库信息
+repository: sapchen/blog  # 格式：username/repo
+
+# 🔥 添加GitHub Pages配置
+github:
+  is_project_page: true
+  repository_url: https://github.com/sapchen/blog
+  owner_url: https://github.com/sapchen
+  owner_name: sapchen
+
 # 构建设置
 markdown: kramdown
 highlighter: rouge
