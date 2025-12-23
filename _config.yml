@@ -2,16 +2,15 @@
 title: "宸良手纪"
 description: "讲述项目背后的故事"
 baseurl: "/blog"
-url: "https://sapchen.github.io/blog"
+url: "https://sapchen.github.io"
 
 # 构建设置
 markdown: kramdown
 highlighter: rouge
 remote_theme: pages-themes/hacker@v0.2.0
 
-# 主题配置
-hacker:
-  skin: dark
+plugins:
+  - jekyll-remote-theme
 
 # 作者信息
 author:
