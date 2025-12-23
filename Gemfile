@@ -4,8 +4,8 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 # 指定兼容版本
-gem "jekyll", "~> 4.3.3"  # GitHub Pages支持的版本
-gem "jekyll-theme-hacker", "~> 0.2.0"
+gem "jekyll"  # GitHub Pages支持的版本
+gem "jekyll-theme-hacker" 
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
