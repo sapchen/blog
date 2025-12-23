@@ -1,6 +1,6 @@
 <!-- archive.md -->
 ---
-layout: page
+layout: default
 title: 文章归档
 permalink: /archive
 ---
