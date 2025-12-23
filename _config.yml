@@ -1,6 +1,6 @@
 # 站点设置
 title: "宸良手纪"
-description: "讲述项目背后的故事 share the story behind the repos"
+description: "讲述项目背后的故事 | share the stories behind the repos"
 baseurl: "/blog" 
 url: "https://sapchen.github.io/blog" 
 
@@ -20,7 +20,7 @@ author:
   email: "chenliang@bupt.cn"
 
 # 社交链接
-github_username: sapchen
+github_username: _061837@bupt
 
 # 其他设置
 permalink: /:year/:month/:day/:title/
