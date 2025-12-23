@@ -5,11 +5,13 @@ baseurl: "/blog"
 url: "https://sapchen.github.io/blog" 
 
 # 构建设置
+markdown: kramdown
+highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-markdown: kramdown
-highlighter: rouge
+  - jekyll-remote-theme
 
 # 主题设置（先使用默认主题）
 theme: jekyll-theme-hacker
@@ -36,3 +38,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - .github
