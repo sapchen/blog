@@ -11,9 +11,16 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
-# 主题设置（先使用默认主题）
-theme: hacker
+# 🔥 使用远程主题，而不是本地安装的主题
+remote_theme: pages-themes/hacker@v0.2.0
+
+# 主题配置
+hacker:
+  skin: dark
+  title: "宸良手纪"
+  description: "讲述项目背后的故事"
 
 # 作者信息
 author:
@@ -35,9 +42,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - "*.gem"
-  - "*.gemspec"
-  - "*.template"
-  - "*.erb"
-  - site_template
-  - lib
+  - _layouts  # 确保不覆盖主题
